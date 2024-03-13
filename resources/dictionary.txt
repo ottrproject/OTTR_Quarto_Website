@@ -1,3 +1,5 @@
+quarto 
+qmd 
 cheatsheet
 css
 custimization
