@@ -95,7 +95,7 @@ jobs:
           git merge -s recursive --strategy-option=theirs origin/${{ github.head_ref }} --allow-unrelated-histories
         shell: bash
 
-       # Now we want to render all the html files from the Rmd files
+       # Now we want to render all the html files from the qmd files
       - name: Run render html
         id: site
         run: quarto render 

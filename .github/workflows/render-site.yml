@@ -52,7 +52,7 @@ jobs:
           # use github PAT
           token: ${{ secrets.GH_PAT }}
 
-       # Now we want to render all the html files from the Rmd files
+       # Now we want to render all the html files from the qmd files
       - name: Run render html
         id: site
         run: quarto render
