@@ -1,6 +1,6 @@
-# OTTR for Websites!
+# OTTR for Websites -- Quarto version!
 
-Get started by going to [ottrproject.org](https://www.ottrproject.org/getting_started.html)! 
+Get started by going to [ottrproject.org](https://www.ottrproject.org/getting_started.html)!
 
 This is a template for creating websites from Rmd files hosted on GitHub with three helpful automations following a pull request to the repository: spelling check, broken link check, and website rendering.
 
@@ -9,4 +9,3 @@ This is a template for creating websites from Rmd files hosted on GitHub with th
 - Automatic rendering of the website for previewing before merges
 - Automatic rendering of the website upon merging to main
 - Docker images that can be customized.
-
