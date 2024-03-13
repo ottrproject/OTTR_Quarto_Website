@@ -5,7 +5,7 @@ output: html_document
 
 ## Navigation bar
 
-To change the part of the navigation bar that says "OTTR Web", modify the title within the `_site.yml` file.
+To change the part of the navigation bar that says "OTTR Quarto", modify the title within the `_quarto.yml` file.
 
 
 ```{r, fig.align='center', fig.alt= "Change nav bar", echo = FALSE, out.width="40%"}
@@ -48,5 +48,5 @@ Banner text!
 </div>
 ```
 
-Also checkout the [R Markdown cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) for more customization of the pages.
+Also checkout the [Quarto docs](https://quarto.org/docs/websites/#workflow) for more customization of the pages.
 

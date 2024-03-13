@@ -10,7 +10,9 @@ Banner text!
 
 ### **About**
 
-This website was created with the OTTR_Template_Website template. This enables simpler creation of websites that have automated checks for broken URLs and spelling errors, as well as automated rendering of all html files. No need to worry about git conflicts for html files!
+This website was created with the [OTTR_Quarto website template](https://github.com/fhdsl/OTTR_Quarto). 
+
+This enables simpler creation of websites that have automated checks for broken URLs and spelling errors, as well as automated rendering of all html files. No need to worry about git conflicts for html files! See [ottrproject.org](https://www.ottrproject.org/) for more docs and details. 
 
 Here is how you can include images in your website pages (this one is saved in `resources/images` to keep things tidy:
 
