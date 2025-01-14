@@ -13,6 +13,8 @@ style-code: yes
 # Test build the docker image if any docker-relevant files have been changed
 # Should URLs be tested periodically?
 url-check-periodically: yes
+# Would you like a readability report on your markdowns?
+readability-report: yes
 
 # What docker image should be used for rendering?
 # The default is jhudsl/base_ottr:main
