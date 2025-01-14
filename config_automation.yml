@@ -11,14 +11,9 @@ spell-check: yes
 # Style any R code
 style-code: yes
 # Test build the docker image if any docker-relevant files have been changed
-docker-test: no
-
-##### Renderings run upon merge to main branch #####
-# Rendering each platform's content
-render-bookdown: yes
-render-leanpub: yes
-render-coursera: no
+# Should URLs be tested periodically?
+url-check-periodically: yes
 
 # What docker image should be used for rendering?
 # The default is jhudsl/base_ottr:main
-rendering-docker-image: 'jhudsl/ottr_quarto:main'
+rendering-docker-image: 'jhudsl/base_ottr:main'
