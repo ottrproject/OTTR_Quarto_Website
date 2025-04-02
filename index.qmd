@@ -10,7 +10,7 @@ Banner text!
 
 ### **About**
 
-This website was created with the [OTTR_Quarto website template](https://github.com/fhdsl/OTTR_Quarto). 
+This website was created with the [OTTR_Quarto website template](https://github.com/ottrproject/OTTR_Quarto). 
 
 This enables simpler creation of websites that have automated checks for broken URLs and spelling errors, as well as automated rendering of all html files. No need to worry about git conflicts for html files! See [ottrproject.org](https://www.ottrproject.org/) for more docs and details. 
 

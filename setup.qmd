@@ -6,7 +6,7 @@ output: html_document
 
 ### Getting started
 
-Create your repository by clicking on the `Use this Template` button at [OTTR_Template_Website repository](https://github.com/jhudsl/OTTR_Template_Website)
+Create your repository by clicking on the `Use this Template` button at [OTTR_Template_Website repository](https://github.com/ottrproject/OTTR_Template_Website)
 
 ![](resources/images/create-repo.png)
 
