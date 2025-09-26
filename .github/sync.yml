@@ -21,6 +21,7 @@ group:
         dest: config_automation.yml
   # Repositories to receive changes
     repos: |
+      datascicollab/datascicollab.github.io
       ottrproject/ottrproject.org
       jhudsl/Baltimore_Community_Course
       maculatus/test-ottr-website
