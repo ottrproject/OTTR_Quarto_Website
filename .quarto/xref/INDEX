@@ -1,0 +1,23 @@
+{
+  "index.qmd": {
+    "index.html": "341c5aed"
+  },
+  "hosting.qmd": {
+    "hosting.html": "edf48275"
+  },
+  "contact.qmd": {
+    "contact.html": "4f60a23f"
+  },
+  "style.qmd": {
+    "style.html": "2abc2416"
+  },
+  "setup.qmd": {
+    "setup.html": "983d34a3"
+  },
+  "editing.qmd": {
+    "editing.html": "2043b11a"
+  },
+  "git_actions.qmd": {
+    "git_actions.html": "4b635f1b"
+  }
+}
