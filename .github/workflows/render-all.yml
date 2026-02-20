@@ -9,8 +9,8 @@ on:
     branches: [ main, staging ]
     paths:
       - '*.qmd'
-      - '*.Rmd'
       - assets/*
+      - '*.yml'
 
 jobs:
 
