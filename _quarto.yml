@@ -4,6 +4,7 @@ project:
   
 website:
   title: "OTTR Template Website"
+  google-analytics: "G-XXXXXXXXX"
   navbar:
     left:
     - text: ""
