@@ -439,3 +439,32 @@ a.anchor:hover {
   font-size: .85em;
   color: var(--accent-color);
 }
+
+/* Website-specific helpers */
+
+body {
+  margin-top: 100px;
+}
+
+.banner_color {
+  background-color: var(--highlight-color);
+  font-weight: bold;
+}
+
+.center {
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn {
+  background-color: var(--link-color);
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: var(--accent-color);
+}

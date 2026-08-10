@@ -25,5 +25,7 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css:
+      - assets/style_config_default.css
+      - assets/style.css
     toc: true
