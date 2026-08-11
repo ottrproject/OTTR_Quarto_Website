@@ -33,14 +33,23 @@ Next, simply replace the image called `favicon.ico` in the `images` directory wi
 
 To make additional changes to the style, you can modify the CSS files in the `assets` folder. Use `assets/style_config_default.css` for color variables and `assets/style.css` for style rules. This [website](https://www.w3schools.com/css/) has great information about css code.
 
-As an example, if you wanted to change the highlight color to green you could change `--highlight-color` in `assets/style_config_default.css`. You can also use a hex color code like those that can be found at this [website](https://htmlcolorcodes.com/), such as `#68ace5` to get a specific shade.
+As an example, if you wanted to change the button color, you could change `--button-color` in `assets/style_config_default.css`. You can also use a hex color code like those that can be found at this [website](https://htmlcolorcodes.com/), such as `#0b5b9d` to get a specific shade.
 
 
-```{r, fig.align='center', fig.alt= "Change color of highlight", echo = FALSE, out.width="80%"}
+```{r, fig.align='center', fig.alt= "Change color of button", echo = FALSE, out.width="80%"}
 knitr::include_graphics("resources/images/style_config.png")
 ```
 
-Note that if you change the css file with a new element that is not already defined like `body` then you would need to do it as done with the `banner_color` element. This was then added to the `index.qmd` file by using:
+If you add a new CSS class that is not already defined, use `var()` for any colors that should be easy to customize. For example, the `banner_color` class in `assets/style.css` uses the `--banner-color` value defined in `assets/style_config_default.css`:
+
+```{css}
+.banner_color {
+  background-color: var(--banner-color);
+  font-weight: bold;
+}
+```
+
+Then you can apply the class to a page. For example, the `banner_color` class was added to `index.qmd` by using:
 
 ```
 <div class = "banner_color">

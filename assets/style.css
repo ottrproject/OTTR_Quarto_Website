@@ -7,7 +7,7 @@ body {
 
 /* Add color behind a major point on your website */
 .banner_color {
-  background-color: var(--highlight-color);
+  background-color: var(--banner-color);
   font-weight: bold;
 }
 
@@ -19,9 +19,9 @@ body {
 
 /* Style buttons */
 .btn {
-  background-color: var(--link-color);
+  background-color: var(--button-color);
   border: none;
-  color: white;
+  color: var(--button-text-color);
   padding: 8px 20px;
   cursor: pointer;
   font-size: 14px;
@@ -29,5 +29,5 @@ body {
 
 /* Darker background on mouse-over */
 .btn:hover {
-  background-color: var(--accent-color);
+  background-color: var(--hover-color);
 }
