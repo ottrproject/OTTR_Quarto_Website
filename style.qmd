@@ -40,21 +40,55 @@ As an example, if you wanted to change the button color, you could change `--but
 knitr::include_graphics("resources/images/style_config.png")
 ```
 
-If you add a new CSS class that is not already defined, use `var()` for any colors that should be easy to customize. For example, the `banner_color` class in `assets/style.css` uses the `--banner-color` value defined in `assets/style_config_default.css`:
+If you add a new CSS class that is not already defined, use `var()` for any colors that should be easy to customize. For example, the `center` and `btn` classes in `assets/style.css` can be used to center text and create a button:
+
+```{css}
+.center {
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn {
+  background-color: var(--button-color);
+  border: none;
+  color: var(--button-text-color);
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: var(--hover-color);
+}
+```
+
+Then you can apply the classes to a page. For example, the `center` class and `btn` class can be added to `index.qmd` by using:
+
+```
+<p class = "center">
+Centered text!
+</p>
+
+<button class = "btn">
+Button text!
+</button>
+```
+
+You can also use classes together. For example, the `banner_color` class can be combined with the `center` class:
+
+```
+<div class = "banner_color center">
+Banner text!  
+</div>
+```
+
+The `banner_color` class is defined in `assets/style.css` and uses the `--banner-color` value from `assets/style_config_default.css`:
 
 ```{css}
 .banner_color {
   background-color: var(--banner-color);
   font-weight: bold;
 }
-```
-
-Then you can apply the class to a page. For example, the `banner_color` class was added to `index.qmd` by using:
-
-```
-<div class = "banner_color">
-Banner text!  
-</div>
 ```
 
 Also checkout the [Quarto docs](https://quarto.org/docs/websites/#workflow) for more customization of the pages.
