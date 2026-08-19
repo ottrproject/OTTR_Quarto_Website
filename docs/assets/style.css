@@ -1,0 +1,33 @@
+/* Color variables are set in style_config_default.css */
+
+/* Add space below the navigation bar */
+body {
+  margin-top: 100px;
+}
+
+/* Add color behind a major point on your website */
+.banner_color {
+  background-color: var(--banner-color);
+  font-weight: bold;
+}
+
+/* Center and bold text */
+.center {
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Style buttons */
+.btn {
+  background-color: var(--button-color);
+  border: none;
+  color: var(--button-text-color);
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: var(--hover-color);
+}
