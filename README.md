@@ -16,7 +16,7 @@ _This template helps you_:
 - Keep authoring environments consistent with the [OTTR Docker image](https://hub.docker.com/repository/docker/jhudsl/base_ottr), helping teams avoid [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell).
 - Customize the site's pages, navigation, hosting, and visual style using the included guides.
 
-[Read the OTTR pre-print](https://arxiv.org/abs/2203.07083).
+[See the OTTR manuscript here!](https://www.tandfonline.com/doi/full/10.1080/26939169.2022.2118646)
 
 <img src="https://docs.google.com/presentation/d/18k_QN7l6zqZQXoiRfKWzcYFXNXJJEo6j4daYGoc3UcU/export/png?id=18k_QN7l6zqZQXoiRfKWzcYFXNXJJEo6j4daYGoc3UcU&amp;pageid=gf4fcf6569c_2_29" width="500" alt="OTTR workflow illustration" />
 
