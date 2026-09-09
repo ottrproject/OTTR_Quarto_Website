@@ -41,6 +41,9 @@ _This template helps you_:
 - See the repository's [license](LICENSE) for usage terms.
 - If you encounter a problem or have an idea for improving this template, [open an issue](https://github.com/ottrproject/OTTR_Quarto_Website/issues/new/choose).
 
+## Cheatsheet
+Refer to our [cheatsheet](https://www.ottrproject.org/cheatsheets/ottr_quarto_website.html) for a quick reference on building your website with OTTR! 
+
 ## Contributing
 
 Contributions are welcome. Please read the [OTTR contributing guide](https://github.com/ottrproject/.github/blob/main/CONTRIBUTING.md).
